@@ -440,13 +440,12 @@ Scheme
 				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"9"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -520,13 +519,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -597,13 +595,12 @@ Scheme
 				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"7"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -648,13 +645,12 @@ Scheme
 				"antialias"	"1"
 				"blur"		"2"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"18"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
 				"antialias"	"1"
 				"blur"		"2"
 			}
@@ -823,19 +819,19 @@ Scheme
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"antialias"	"1"
 			}
 		}
 		"HudFontGiant"
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -845,7 +841,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -855,7 +851,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -864,28 +860,27 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"1024 1199"
 			}
-			"5"
+			"5" // Misyl: Proportional
 			{
-				"name"		"N.O.- Movement"
-				"tall"		"52"
+				"name"		"TF2"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -898,7 +893,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -911,7 +906,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -923,7 +918,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -934,7 +929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -945,7 +940,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -957,9 +952,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
-				"tall"		"18"
-				"weight"	"400"
+				"name"		"TF2 Secondary"
+				"tall"		"24"
+				"weight"	"500"
+				"yres"		"1 1199"
+				"additive"	"0"
+				"antialias" "1"
+			}
+			"2" // Misyl: Proportional
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -968,7 +972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -979,7 +983,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -990,7 +994,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1003,7 +1007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1016,7 +1020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1028,7 +1032,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1039,7 +1043,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1050,7 +1054,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1062,7 +1066,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1073,7 +1077,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1085,7 +1089,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1096,7 +1100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1107,7 +1111,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1118,7 +1122,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1129,7 +1133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1140,7 +1144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1151,7 +1155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1162,7 +1166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1175,7 +1179,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1250,7 +1254,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1263,7 +1267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1323,7 +1327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1333,7 +1337,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1344,7 +1348,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1353,7 +1357,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1362,7 +1366,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1537,7 +1541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1547,7 +1551,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1558,7 +1562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1583,7 +1587,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Brianne's Hand"
+				"name"			"TF2 Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1598,7 +1602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Brianne's Hand"
+				"name"			"TF2 Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1613,7 +1617,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Brianne's Hand"
+				"name"		"TF2 Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -1626,7 +1630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Brianne's Hand"
+				"name"			"TF2 Professor"
 				"tall"			"14" [$WINDOWS]
 				"tall"			"15" [!$WINDOWS]
 				"tall_lodef"	"32"
@@ -1664,7 +1668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1677,7 +1681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1689,7 +1693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1701,7 +1705,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -1715,7 +1719,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1727,7 +1731,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1739,7 +1743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -1754,7 +1758,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1766,7 +1770,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -1776,7 +1780,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -1786,7 +1790,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1795,7 +1799,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1804,7 +1808,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -1817,7 +1821,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1829,7 +1833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -1840,7 +1844,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1851,7 +1855,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -1863,7 +1867,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -1977,7 +1981,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2077,7 +2081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2090,7 +2094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"10"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2102,7 +2106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2155,7 +2159,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2165,7 +2169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2175,7 +2179,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2203,7 +2207,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2212,7 +2216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2251,7 +2255,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2262,7 +2266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2273,7 +2277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2361,7 +2365,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2372,7 +2376,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2383,7 +2387,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2394,7 +2398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2405,7 +2409,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2426,7 +2430,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2437,7 +2441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2448,7 +2452,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2460,7 +2464,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2471,7 +2475,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"LEMON MILK Bold"
+				"name"			"TF2 Build"
 				"tall"			"9"
 				"weight"		"500"
 				"blur"			"3"
@@ -2496,10 +2500,11 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
 				"additive"	"1"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_DescGlow"
@@ -2507,9 +2512,10 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"	"0"
-				"antialias" 	"1"
+				"antialias" "1"
 			}
 		}
 		"QuestObjectiveTracker_DescBlur"
@@ -2517,7 +2523,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"7"
+				"tall"		"7" [!$POSIX]
+				"tall"		"8" [$POSIX]
 				"weight"		"0"
 				"blur"			"3"
 				"additive"		"1"
@@ -2619,7 +2626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Brianne's Hand"
+				"name"		"TF2 Professor"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -2630,7 +2637,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2639,7 +2646,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2648,7 +2655,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2661,7 +2668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -2671,7 +2678,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2681,7 +2688,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -2695,7 +2702,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -2704,7 +2711,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -2713,7 +2720,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -2726,7 +2733,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -2738,7 +2745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -2749,8 +2756,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
-				"tall"		"10"
+				"name"		"TF2 Secondary"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2857,7 +2864,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2921,7 +2928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2932,7 +2939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2943,7 +2950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2956,7 +2963,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2967,7 +2974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2984,7 +2991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2995,7 +3002,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3007,7 +3014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3020,7 +3027,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"N.O.- Movement"
+				"name"		"TF2 Secondary"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3033,7 +3040,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3045,7 +3052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3059,7 +3066,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"LEMON MILK Bold"
+				"name"		"TF2 Build"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3146,7 +3153,7 @@ Scheme
 		"3"
 		{
 			"font" "resource/TF2.ttf"
-			"name" "N.O.- Movement"
+			"name" "TF2"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3159,7 +3166,7 @@ Scheme
 		"4" 
 		{
 			"font" "resource/TF2Secondary.ttf"
-			"name" "N.O.- Movement"
+			"name" "TF2 Secondary"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3172,7 +3179,7 @@ Scheme
 		"5" 
 		{
 			"font" "resource/TF2Professor.ttf"
-			"name" "Brianne's Hand"
+			"name" "TF2 Professor"
 			"russian"
 			{
 				"range" "0x0000 0x00FF"
@@ -3185,7 +3192,7 @@ Scheme
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
-			"name" "LEMON MILK Bold"
+			"name" "TF2 Build"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
@@ -3271,6 +3278,14 @@ Scheme
 		"16" "resource/fonts/Gobold.ttf"
 		"17" "resource/fonts/ToonHUD Montserrat.ttf"
 		"18" "resource/fonts/Montserrat.ttf"
+		"19" "resource/linux_fonts/DejaVuSans.ttf"
+		"20" "resource/linux_fonts/DejaVuSans-Bold.ttf"
+		"21" "resource/linux_fonts/DejaVuSans-BoldOblique.ttf"
+		"22" "resource/linux_fonts/DejaVuSans-Oblique.ttf"
+		"23" "resource/linux_fonts/LiberationSans-Regular.ttf"
+		"24" "resource/linux_fonts/LiberationSans-Bold.ttf"
+		"25" "resource/linux_fonts/LiberationMono-Regular.ttf"
+		"26" "resource/linux_fonts/FiraSans-Regular.ttf"
 	}
 }
 
